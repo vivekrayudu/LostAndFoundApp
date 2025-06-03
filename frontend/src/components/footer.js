@@ -26,7 +26,7 @@ const Footer = () => {
            }
             <Typography variant="body2" color="text.secondary">
                 {'© '}
-                <Link color="inherit" href="https://lost-found-6lys.onrender.com/">
+                <Link color="inherit" href="https://lostandfoundapp-c3ot.onrender.com">
                     Lost Found
                 </Link>{' '}
                 {new Date().getFullYear()}
@@ -43,7 +43,7 @@ const Footer = () => {
                     rel="noopener noreferrer" // For security
                     color="inherit"
                     aria-label="Contact Admin"
-                    onClick={() => window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=eshwarrachakonda02@gmail.com`, '_blank')}
+                    onClick={() => window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=vivekrayudu79@gmail.com`, '_blank')}
                 >
                     <EmailIcon />
                 </Button>
