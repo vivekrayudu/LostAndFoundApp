@@ -157,7 +157,7 @@ const Home = () => {
                         <DialogTitle>Create a Post</DialogTitle>
                         <DialogContent>
                             <FormControl fullWidth margin="dense" variant="outlined">
-                                <InputLabel id="post-type-label"  required = "true" >Type</InputLabel>
+                                <InputLabel id="post-type-label"  required >Type</InputLabel>
                                 <Select
                                     labelId="post-type-label"
                                     value={postType}
@@ -176,7 +176,7 @@ const Home = () => {
                                 fullWidth
                                 variant="outlined"
                                 value={location}
-                                required = "true"
+                                required 
                                 onChange={(e) => setLocation(e.target.value)}
                             />
 
@@ -189,7 +189,7 @@ const Home = () => {
                                 rows={4}
                                 variant="outlined"
                                 value={description}
-                                 required = "true"
+                                 required
                                 onChange={(e) => setDescription(e.target.value)}
                             />
 
