@@ -21,7 +21,7 @@ const Footer = () => {
            {
 
             // <Typography variant="body2" color="text.secondary" sx={{ marginBottom: '8px' }}>
-            //     Designed with ❤️ by Eshwar
+            //     Designed with ❤️ by vivek
             // </Typography>
            }
             <Typography variant="body2" color="text.secondary">
